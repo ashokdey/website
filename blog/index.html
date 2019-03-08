@@ -21,7 +21,8 @@ about: 'about.html'
                 {% if site.description %} {{ site.description }}. {% endif %}
                 {% if page.about %} 
                 <br>
-                <a href='{{ site.baseurl }}{{ page.about }}'> About me? </a> {% endif %}
+                <br>
+                <a style="text-decoration-line: none;" href='{{ site.baseurl }}{{ page.about }}'> >> Who am I ? </a> {% endif %}
             </h2>
         </div>
     </div>
@@ -48,7 +49,6 @@ about: 'about.html'
         <footer class="post-meta">
             {% if site.author %}
                 <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
