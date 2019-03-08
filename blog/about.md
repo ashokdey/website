@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: Know Me!
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Right now I am lazy to add few lines about me, checkout later. You can also have a look at the first post of this blog titled ["Hello World"](../intro/2019/03/08/hello-wolrd.html) to know about me
