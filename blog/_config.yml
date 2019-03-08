@@ -1,0 +1,16 @@
+name: Ashok.emmit('thoughts')
+description: Blogging about tech stuffs
+meta_description: 'Jekyll Site, Blogging about tech stuffs'
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://ashokdey.in/blog'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url: 'https://ashokdey.in/blog'
+author: 'Ashok Dey'
