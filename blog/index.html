@@ -46,14 +46,14 @@ about: 'about.html'
         <section class="post-excerpt">
             {{ post.description }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
         </section>
-        <footer class="post-meta">
+        <footer class="post-meta-home">
             {% if site.author %}
                 <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
             {% endif %}
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'in ' }} 
             {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+            <time class="post-date-home" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
             </time> 
         </footer>
